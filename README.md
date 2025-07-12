@@ -47,7 +47,7 @@
 
 ## صور من المشروع 
 ### Main Menu
-![Menu](screenshots/MainMenu.pig)
+![Menu](screenshots/MainMenu.png)
 
 ### Show All Tasks
 ![Tasks](screenshots/AllTasks.png)
