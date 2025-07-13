@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{d6b05092-5405-474c-87c1-5e48d1b18b58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Lib">
+      <UniqueIdentifier>{a7833427-fbe0-45eb-8e6f-5b961f5e4da0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screens">
+      <UniqueIdentifier>{70f549cb-10b0-4f55-8ba8-5f1420e90708}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TasksManagementSystem_To-Do-List.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SinglyLinkedList.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="IServicesSinglyLinkedList.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="clsTask.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="clsTasksManagement.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="clsDate.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clsString.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="clsScreen.h">
+      <Filter>Header Files\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="clsMainScreen.h">
+      <Filter>Header Files\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="clsUtil.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="clsInputValidate.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="clsAddTaskScreen.h">
+      <Filter>Header Files\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="clsDeleteTaskScreen.h">
+      <Filter>Header Files\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="clsFindTaskScreen.h">
+      <Filter>Header Files\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="clsShowTasksIncompleteScreen.h">
+      <Filter>Header Files\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="clsShowTasksCompleteScreen.h">
+      <Filter>Header Files\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="clsShowAllTasksScreen.h">
+      <Filter>Header Files\Screens</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
